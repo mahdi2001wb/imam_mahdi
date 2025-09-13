@@ -1,26 +1,48 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* -------------------
+   Theme Customization
+-------------------- */
+@theme {
+  --font-sans: "Mona Sans", serif;
+  
+   --color-designColor:#ff014f;
+  --color-bodyColor:#0B1120;
+  --color-lightText:#c4cfde;
+  --color-boxBg:linear-gradient(145deg, #1e2024, #23272b);
+
+  --color-primary: #0D0E09;
+  --color-primaryWhite: #ffffff;
+  --color-darkOrange: #FA481C;
+  --color-darkBlue: #5765FB;
+  --color-darkYellow: #FCD100;
+  --color-lightYellow: #DED1C1;
+  --color-darkColor: #0C0C0C;
+  --color-darkGray: #262626;
+
+  --radius: 0.5rem;
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
+/* -------------------
+   Components
+-------------------- */
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --radius: 0.5rem;
   }
-}
+  @layer components {
+    .wrapper {
+      @apply border-b-[1px] border-b-slate-700 py-20;
+    }
+      
+  }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  .hoverEffect {
+    @apply transition-all ease-in-out duration-300;
+  }
+  
 }

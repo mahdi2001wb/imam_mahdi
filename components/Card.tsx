@@ -1,0 +1,41 @@
+import { HiArrowRight } from "react-icons/hi";
+
+interface Props {
+  title: string;
+  des: string;
+  icon: React.ReactNode;
+}
+
+const Card = ({ title, des, icon }: Props) => {
+  return (
+    <div className=" w-full px-12 h-80 py-10 rounded-lg shadow-shadowOne flex items-center bg-slate-200 bg-gradient-to-r from- to-[#e6edeb] group hover:bg-gradient-to-b hover:from-gray-500 hover:to-[#eff3f2]  transition-colors duration-100 group">
+      <div className="h-72 overflow-y-hidden">
+        <div className="flex h-full flex-col gap-10 translate-y-16 group-hover:translate-y-0 transition-transform duration-500">
+          <div className="w-10 h-8  flex flex-col justify-between">
+            {icon ? (
+              <span className="text-5xl text-red-600 hover:text-amber-500">{icon}</span>
+            ) : (
+              <>
+                <span className="w-full h-[2px] rounded-lg bg-red-600 inline-flex"></span>
+                <span className="w-full h-[2px] rounded-lg bg-red-600 inline-flex"></span>
+                <span className="w-full h-[2px] rounded-lg bg-red-600 inline-flex"></span>
+                <span className="w-full h-[2px] rounded-lg bg-red-600 inline-flex"></span>
+              </>
+            )}
+          </div>
+          <div className="flex flex-col gap-6">
+            <h2 className="text-xl md:text-2xl font-titleFont font-bold text-black">
+              {title}
+            </h2>
+            <p className="base">{des}</p>
+            <span className="text-2xl text-red-600">
+              <HiArrowRight />
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Card;
