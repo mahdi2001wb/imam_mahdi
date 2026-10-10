@@ -59,7 +59,7 @@ const Banner = () => {
             <div>
               <h2 className="text-2xl font-bold">Contact</h2>
               <Link
-                href="mailto:reactjsbd@gmail.com"
+                href="mahsiimam0@gmail.com"
                 className="text-base font-medium"
               >
                 mahsiimam0@gmail.com
