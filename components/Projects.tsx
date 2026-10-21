@@ -1,9 +1,9 @@
 import React from "react";
 import Container from "./Container";
 import ProjectCard from "./ProjectCard"
-import {  amazonClone,
+import {  schoolManagement, school, bandb,
   DevfolioPortfolio, 
-  noorShop,
+  
   dynamicPortfolio, dashboard,
   bookManagement } from "@/assets/image";
 
@@ -19,9 +19,9 @@ const Projects = ({ className }: { className?: string }) => {
         </div>
         <div className="grid grid-cols-1 mt-10 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center">
         <ProjectCard
-          img={amazonClone.src}
-          title="Amazon Clone"
-          link="https://amazonclone.reactbd.com/"
+          img={schoolManagement.src}
+          title="School Management"
+          link="https://school-management-system-jet-tau.vercel.app/admin"
         />
         <ProjectCard
           img={bookManagement.src}
@@ -34,20 +34,20 @@ const Projects = ({ className }: { className?: string }) => {
           link="https://next-js-portfolio-2.vercel.app/"
         />
         <ProjectCard
-          img={noorShop.src}
-          title="Noor Shopping"
-          link="https://orebishopping.reactbd.com/"
+          img={school.src}
+          title="School Management System"
+          link="https://dtmm.vercel.app/admin/login"
         />
         <ProjectCard
           img={dynamicPortfolio.src}
           title="Dynamic Portfolio"
-          link="https://portfolioone.reactbd.com/"
+          link="https://portfolioone.com/"
         />
 
         <ProjectCard
-          img={dashboard.src}
-          title="Dashboard"
-          link="https://orebishopping.reactbd.com/"
+          img={bandb.src}
+          title="B&B Altura"
+          link="https://www.alturaprossdi.it/"
         />
       </div>
       </Container>

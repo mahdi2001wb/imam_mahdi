@@ -39,20 +39,20 @@ const ContactPage = () => {
     setSuccess(false);
 
     try {
-      // const response = await fetch('', {
-      //   method: "POST",
-      //   body: form,
-      // });
+      const response = await fetch('', {
+        method: "POST",
+        body: form,
+      });
 
-      // if (response?.ok) {
-      //   setFormData({
-      //     name: "",
-      //     email: "",
-      //     interest: "",
-      //     budget: "",
-      //     message: "",
-      //   });
-      // }
+      if (response?.ok) {
+        setFormData({
+          name: "",
+          email: "",
+          interest: "",
+          budget: "",
+          message: "",
+        });
+      }
       setFormData({
         name: "",
         email: "",

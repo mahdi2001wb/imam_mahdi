@@ -8,6 +8,9 @@ import reactBD from "./reactBD.png";
 import dashboard from "./dashboard.webp";
 import bookManagement from "./bookManagement.png";
 import DevfolioPortfolio from "./DevfolioPortfolio.png";
+import schoolManagement from "./schoolManagement.png";
+import school from "./school.png";
+import bandb from "./bandb.png";
 
 export {  hero1,  
     amazonClone,
@@ -18,5 +21,8 @@ export {  hero1,
     dashboard,
     bookManagement,
     DevfolioPortfolio,
+    schoolManagement,
+    school,
+    bandb,
 
 };
