@@ -1,0 +1,43 @@
+import { defineService, f, L } from "./helpers";
+
+export const marketingServices = [
+  defineService({
+    id: "meta-ads",
+    category: "marketing",
+    icon: "Megaphone",
+    unit: "month",
+    title: L("Meta Ads Management", "Gestione di Meta Ads", "মেটা অ্যাডস ম্যানেজমেন্ট", "Gestión de Meta Ads", "Gestion de Meta Ads", "Meta-Ads-Betreuung", "إدارة إعلانات Meta"),
+    short: L("Setup and management of Facebook and Instagram ad campaigns focused on your business goals.", "Impostazione e gestione di campagne pubblicitarie su Facebook e Instagram orientate ai tuoi obiettivi.", "আপনার ব্যবসার লক্ষ্যকে কেন্দ্র করে ফেসবুক ও ইনস্টাগ্রাম বিজ্ঞাপন ক্যাম্পেইনের সেটআপ ও ব্যবস্থাপনা।", "Configuración y gestión de campañas en Facebook e Instagram centradas en los objetivos de tu negocio.", "Mise en place et gestion de campagnes publicitaires Facebook et Instagram centrées sur vos objectifs.", "Einrichtung und Betreuung von Facebook- und Instagram-Werbekampagnen, ausgerichtet auf Ihre Geschäftsziele.", "إعداد وإدارة حملات إعلانية على فيسبوك وإنستغرام تركّز على أهداف نشاطك التجاري."),
+    technologies: ["Meta Ads Manager", "Meta Pixel"],
+    addons: ["extraRevision", "fastDelivery"],
+    basic: { days: 3, revisions: 1, features: [f("campaigns", 1), f("audience"), f("tracking")] },
+    standard: { days: 3, revisions: 2, features: [f("campaigns", 3), f("audience"), f("tracking"), f("reporting")] },
+    premium: { days: 3, revisions: 3, features: [f("campaigns", 5), f("audience"), f("tracking"), f("reporting")] },
+  }),
+  defineService({
+    id: "seo",
+    category: "marketing",
+    icon: "Search",
+    featured: true,
+    title: L("SEO Optimization", "Ottimizzazione SEO", "এসইও অপটিমাইজেশন", "Optimización SEO", "Optimisation SEO", "SEO-Optimierung", "تحسين محركات البحث (SEO)"),
+    short: L("Improve your visibility in search engines with keyword research, on-page work and a technical review.", "Migliora la tua visibilità sui motori di ricerca con ricerca delle parole chiave, lavoro on-page e revisione tecnica.", "কিওয়ার্ড রিসার্চ, অন-পেজ কাজ ও টেকনিক্যাল রিভিউয়ের মাধ্যমে সার্চ ইঞ্জিনে আপনার দৃশ্যমানতা বাড়ান।", "Mejora tu visibilidad en los buscadores con investigación de palabras clave, trabajo on-page y revisión técnica.", "Améliorez votre visibilité dans les moteurs de recherche grâce à la recherche de mots-clés, au travail on-page et à un audit technique.", "Verbessern Sie Ihre Sichtbarkeit in Suchmaschinen mit Keyword-Recherche, On-Page-Optimierung und technischer Prüfung.", "حسّن ظهورك في محركات البحث عبر بحث الكلمات المفتاحية والتحسين الداخلي للصفحات ومراجعة تقنية."),
+    technologies: ["Google Search Console", "Google Analytics"],
+    addons: ["extraRevision", "fastDelivery"],
+    basic: { days: 5, revisions: 1, features: [f("keywords"), f("onPage")] },
+    standard: { days: 10, revisions: 2, features: [f("keywords"), f("onPage"), f("audit"), f("reporting")] },
+    premium: { days: 15, revisions: 3, features: [f("keywords"), f("onPage"), f("audit"), f("reporting"), f("analytics"), f("support", 30)] },
+  }),
+  defineService({
+    id: "social-media-marketing",
+    category: "marketing",
+    icon: "Share2",
+    unit: "month",
+    title: L("Social Media Marketing", "Social media marketing", "সোশ্যাল মিডিয়া মার্কেটিং", "Marketing en redes sociales", "Marketing sur les réseaux sociaux", "Social-Media-Marketing", "التسويق عبر وسائل التواصل الاجتماعي"),
+    short: L("Consistent, on-brand social media content and management to grow your audience and engagement.", "Contenuti e gestione dei social coerenti con il tuo brand per far crescere pubblico e coinvolgimento.", "আপনার অডিয়েন্স ও এনগেজমেন্ট বাড়াতে ব্র্যান্ডের সঙ্গে সামঞ্জস্যপূর্ণ নিয়মিত সোশ্যাল মিডিয়া কনটেন্ট ও ব্যবস্থাপনা।", "Contenido y gestión de redes sociales constantes y acordes con tu marca para hacer crecer tu audiencia y su interacción.", "Contenus et gestion des réseaux sociaux réguliers et fidèles à votre marque pour développer votre audience et son engagement.", "Regelmäßige, markenkonforme Social-Media-Inhalte und -Betreuung, um Reichweite und Interaktion zu steigern.", "محتوى وإدارة منتظمان لوسائل التواصل الاجتماعي ينسجمان مع علامتك لتنمية جمهورك وتفاعله."),
+    technologies: ["Meta Business Suite", "Canva"],
+    addons: ["extraRevision", "extraPlatform"],
+    basic: { days: 4, revisions: 2, features: [f("platforms", 1), f("posts", 8)] },
+    standard: { days: 4, revisions: 3, features: [f("platforms", 2), f("posts", 16), f("calendar")] },
+    premium: { days: 4, revisions: 4, features: [f("platforms", 3), f("posts", 24), f("calendar"), f("reporting")] },
+  }),
+];

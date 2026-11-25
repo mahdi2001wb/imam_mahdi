@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+/* -------------------
+   Theme Customization
+-------------------- */
+@theme {
+  --font-sans: "Mona Sans", system-ui, sans-serif;
+  
+   --color-designColor:#ff014f;
+  --color-bodyColor:#0B1120;
+  --color-lightText:#c4cfde;
+  --color-boxBg:linear-gradient(145deg, #1e2024, #23272b);
+
+  --color-primary: #0D0E09;
+  --color-primaryWhite: #ffffff;
+  --color-darkOrange: #FA481C;
+  --color-darkBlue: #5765FB;
+  --color-darkYellow: #FCD100;
+  --color-lightYellow: #DED1C1;
+  --color-darkColor: #0C0C0C;
+  --color-darkGray: #262626;
+
+  --radius: 0.5rem;
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+}
+
+
+/* -------------------
+   Components
+-------------------- */
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+  @layer components {
+    .wrapper {
+      @apply border-b-[1px] border-b-slate-700 py-20;
+    }
+      
+  }
+
+  .hoverEffect {
+    @apply transition-all ease-in-out duration-300;
+  }
+  
+}
+
+/* -------------------
+   Currency switching (see components/currency/Price.tsx)
+   Both configured prices are rendered; html[data-currency] picks one.
+-------------------- */
+[data-cur="USD"] { display: none; }
+html[data-currency="USD"] [data-cur="USD"] { display: inline; }
+html[data-currency="USD"] [data-cur="EUR"] { display: none; }
+
+/* -------------------
+   Language-specific fonts
+-------------------- */
+html[lang="ar"] body {
+  font-family: "Noto Sans Arabic", "Mona Sans", system-ui, sans-serif;
+}
+html[lang="bn"] body {
+  font-family: "Noto Sans Bengali", "Mona Sans", system-ui, sans-serif;
+}
+html[dir="rtl"] .flip-rtl { transform: scaleX(-1); }
+
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
