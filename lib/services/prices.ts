@@ -34,7 +34,7 @@ export const PRICES: Record<string, Record<Tier, Money>> = {
   "wordpress-customization": { basic: m(40, 45), standard: m(90, 100), premium: m(180, 195) },
   "elementor-design": { basic: m(80, 90), standard: m(160, 175), premium: m(300, 330) },
   // ── Digital Marketing (Meta Ads & Social = per month, ad spend not included) ──
-  "meta-ads": { basic: m(90, 100), standard: m(180, 200), premium: m(350, 385) },
+  "meta-ads": { basic: m(20, 30), standard: m(100, 120), premium: m(150, 199) },
   seo: { basic: m(100, 110), standard: m(200, 220), premium: m(380, 415) },
   "social-media-marketing": { basic: m(90, 100), standard: m(180, 200), premium: m(340, 375) },
   // ── Graphics Design ────────────────────────────────────────────────
