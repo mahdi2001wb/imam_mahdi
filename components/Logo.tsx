@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import { Dot } from "lucide-react";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 
 interface Props {
   children: React.ReactNode;
@@ -18,7 +18,7 @@ const Logo = ({ children, className }: Props) => {
     >
       <p className="flex items-end relative">
         {children}
-        <span className="absolute -right-5 -bottom-1 text-darkOrange group-hover:text-darkColor">
+        <span className="absolute -right-5 rtl:-left-5 rtl:right-auto -bottom-1 text-darkOrange group-hover:text-darkColor">
           <Dot className="w-7 h-7" />
         </span>
       </p>

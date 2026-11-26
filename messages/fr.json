@@ -1,0 +1,438 @@
+{
+  "common": {
+    "viewDetails": "Voir les détails",
+    "orderNow": "Commander",
+    "contactMe": "Me contacter",
+    "whatsapp": "WhatsApp",
+    "email": "E-mail",
+    "backToServices": "Retour aux services",
+    "loading": "Chargement…",
+    "close": "Fermer",
+    "skipToContent": "Aller au contenu",
+    "priceOnRequest": "Prix sur demande",
+    "perMonth": "/ mois",
+    "startingAt": "À partir de",
+    "goHome": "Retour à l’accueil",
+    "notFoundTitle": "Page introuvable",
+    "notFoundText": "Oups ! La page que vous cherchez n’existe pas.",
+    "optional": "facultatif"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "services": "Services",
+    "projects": "Projets",
+    "about": "À propos",
+    "contact": "Contact",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "language": "Langue",
+    "currency": "Devise",
+    "main": "Navigation principale"
+  },
+  "homepage": {
+    "greeting": "Bonjour ! Je suis",
+    "role": "Développeur Full Stack",
+    "yearsLine": "Je crée et déploie des sites web depuis <bold>plus de {years} ans</bold> en tant que développeur web.",
+    "hireMe": "Travaillons ensemble",
+    "viewProjects": "Projets",
+    "clients": "Clients dans le monde entier",
+    "projectsDone": "Projets réalisés",
+    "contact": "Contact",
+    "statsTitle": "Statistiques des projets 2024/25",
+    "knowMore": "En savoir plus",
+    "experienceTitle": "Expérience",
+    "servicesTitle": "Services",
+    "skillsTitle": "Compétences",
+    "projectsTitle": "Mes projets",
+    "browseAll": "Voir tous les services et tarifs",
+    "heroImageAlt": "Portrait d’Imam Mahdi",
+    "statLabels": {
+      "websiteDevelopment": "Développement de sites web",
+      "webDesign": "Web design",
+      "ecommerce": "Sites e-commerce",
+      "openSource": "Contributions open source"
+    },
+    "experience": {
+      "webDeveloper": "Développeur web 2024 – aujourd’hui",
+      "mernDeveloper": "Développeur MERN Stack 2024 – aujourd’hui"
+    },
+    "cards": {
+      "webDev": {
+        "title": "Développement web",
+        "des": "De la conception à l’intégration et à la maintenance, je propose un développement complet d’applications web. Je crée des applications sûres, évolutives, rapides et performantes sur tous les appareils et toutes les plateformes."
+      },
+      "webDesign": {
+        "title": "Conception de sites web",
+        "des": "Le web, ce ne sont pas des images qui bougent, mais des images qui vous touchent. Trop d’entreprises se concentrent uniquement sur l’aspect technique du marketing digital et oublient l’expérience utilisateur."
+      },
+      "ecommerce": {
+        "title": "Sites e-commerce",
+        "des": "Des designs modernes et une boutique en ligne complète : catalogue de produits, panier, paiement sécurisé et tableau de bord d’administration."
+      },
+      "ebook": {
+        "title": "Plateformes d’e-books | Sites portfolio",
+        "des": "Des plateformes sur mesure pour parcourir, lire et acheter des livres numériques, avec authentification des utilisateurs et intégration du paiement, ainsi que des sites portfolio soignés."
+      },
+      "seo": {
+        "title": "Optimisation SEO",
+        "des": "Grâce à une connaissance approfondie des derniers algorithmes et technologies, j’aide les entreprises et les particuliers à gagner en visibilité en ligne et à renforcer leur présence sur le web."
+      },
+      "hosting": {
+        "title": "Hébergement de sites web",
+        "des": "Un hébergement et un déploiement fiables pour que votre site reste rapide, sécurisé et en ligne, avec la configuration du domaine et du serveur incluse."
+      }
+    }
+  },
+  "about": {
+    "role": "Développeur Full Stack",
+    "intro": "Développeur MERN Stack passionné par la création de solutions logicielles évolutives et efficaces.",
+    "title": "À propos de moi",
+    "p1": "Avec plus de {years} ans d’expérience en développement web, je suis spécialisé dans la création d’applications web robustes, évolutives et centrées sur l’utilisateur avec la stack MERN (MongoDB, Express.js, React, Node.js). Mon expertise couvre tout le cycle de développement, de la conception d’API RESTful propres et d’une logique back-end efficace à la réalisation d’interfaces front-end responsives et interactives.",
+    "p2": "J’aime le code propre, le développement piloté par les tests et les applications maintenables et performantes. Qu’il s’agisse d’un système e-commerce, d’une plateforme d’e-books ou de l’automatisation de processus, j’apporte à chaque projet un esprit orienté solutions et un grand souci du détail.",
+    "p3": "En dehors du travail, je contribue à des projets open source et j’accompagne de jeunes développeurs pour les aider à progresser dans leur carrière. Je crois à la formation continue et je me tiens toujours informé des dernières tendances de l’écosystème JavaScript.",
+    "skills": "Compétences",
+    "imageAlt": "Photo de profil d’Imam Mahdi"
+  },
+  "services": {
+    "heroTitle": "Donnez de l’élan à votre présence digitale",
+    "heroText": "De l’idée à la réalisation, nous proposons des solutions de pointe qui font avancer votre activité.",
+    "explore": "Découvrir les services",
+    "featuredTitle": "Services à la une",
+    "featuredText": "Une sélection de services pour lancer votre projet.",
+    "allTitle": "Tous les services",
+    "searchLabel": "Rechercher des services",
+    "searchPlaceholder": "Rechercher un service…",
+    "category": "Catégorie",
+    "allCategories": "Toutes les catégories",
+    "price": "Prix",
+    "anyPrice": "Tous les prix",
+    "priceUnder": "Moins de {price}",
+    "priceBetween": "{min} – {max}",
+    "priceOver": "{price} et plus",
+    "sort": "Trier par",
+    "sortFeatured": "À la une d’abord",
+    "sortPriceLow": "Prix : croissant",
+    "sortPriceHigh": "Prix : décroissant",
+    "sortName": "Nom : A–Z",
+    "resultsCount": "Services trouvés : {count}",
+    "noResults": "Aucun service ne correspond à vos filtres.",
+    "noResultsHint": "Essayez une autre recherche ou réinitialisez les filtres.",
+    "reset": "Réinitialiser les filtres",
+    "thumbnailAlt": "Illustration du service {title}",
+    "overview": "À propos de ce service",
+    "keyFeatures": "Caractéristiques principales",
+    "keyFeaturesNote": "Les caractéristiques incluses varient selon la formule.",
+    "technologies": "Technologies utilisées",
+    "gallery": "Extraits de mon portfolio",
+    "galleryAlt": "{title} – exemple de portfolio {number}",
+    "packagesTitle": "Choisissez votre formule",
+    "packagesText": "Comparez les trois formules et choisissez celle qui convient à votre projet.",
+    "deliveryTitle": "Livraison",
+    "deliveryText": "Le délai de livraison commence une fois que j’ai reçu les détails de votre projet et les éléments nécessaires, comme les contenus, le logo ou les accès.",
+    "revisionTitle": "Politique de révisions",
+    "revisionText": "Chaque formule inclut le nombre de révisions indiqué. Une révision correspond à des ajustements dans le périmètre convenu ; les nouvelles fonctionnalités ou un changement de direction font l’objet d’un devis distinct.",
+    "faqTitle": "Questions fréquentes",
+    "related": "Services associés",
+    "helpTitle": "Vous hésitez entre plusieurs formules ?",
+    "helpText": "Écrivez-moi et je vous recommanderai la meilleure option selon vos objectifs et votre budget.",
+    "breadcrumb": "Fil d’Ariane",
+    "categories": {
+      "website": {
+        "name": "Développement de sites web",
+        "description": "Des sites web rapides et responsives, conçus pour présenter votre activité de manière professionnelle et transformer les visiteurs en clients. Chaque projet est pensé mobile-first, développé avec un code propre et préparé pour les moteurs de recherche."
+      },
+      "ecommerce": {
+        "name": "Développement e-commerce",
+        "description": "Des boutiques en ligne et des systèmes de gestion de produits qui simplifient la vente : fiches produits claires, paiement fluide et espace d’administration pour garder la main sur votre catalogue et vos commandes."
+      },
+      "wordpress": {
+        "name": "Développement WordPress",
+        "description": "Des sites WordPress flexibles que vous pouvez mettre à jour vous-même. Des sites d’entreprise aux personnalisations et aux créations avec Elementor, sur des thèmes et extensions fiables, avec une attention portée à la sécurité et à la rapidité."
+      },
+      "marketing": {
+        "name": "Marketing digital",
+        "description": "Un marketing concret qui aide les bonnes personnes à vous trouver : campagnes publicitaires bien structurées, optimisation pour les moteurs de recherche et gestion des réseaux sociaux, avec un suivi clair et des rapports transparents."
+      },
+      "graphics": {
+        "name": "Design graphique",
+        "description": "Des visuels soignés et mémorables pour votre marque : cartes de visite, bannières, affiches et visuels pour les réseaux sociaux, livrés dans les formats dont vous avez besoin pour l’impression et le web."
+      },
+      "maintenance": {
+        "name": "Maintenance de sites web",
+        "description": "Gardez votre site en bonne santé : correction de bugs, optimisation de la vitesse et maintenance continue pour qu’il reste rapide, sécurisé et à jour, sans vous détourner de votre activité."
+      }
+    }
+  },
+  "pricing": {
+    "basic": "Essentiel",
+    "standard": "Standard",
+    "premium": "Premium",
+    "recommended": "Recommandé",
+    "selectPackage": "Choisir cette formule",
+    "deliveryTime": "Délai de livraison",
+    "revisions": "Révisions",
+    "included": "Ce qui est inclus",
+    "extras": "Options supplémentaires",
+    "extrasNote": "Ajoutées sur demande et confirmées avec votre commande.",
+    "compareTitle": "Comparaison des formules",
+    "price": "Prix",
+    "note": "Les prix sont des tarifs de départ dans la devise sélectionnée. Le devis définitif est confirmé après étude des besoins de votre projet.",
+    "deliveryDays": "{count, plural, one {# jour} other {# jours}}",
+    "revisionCount": "{count, plural, one {# révision} other {# révisions}}",
+    "tierDescription": {
+      "basic": "L’essentiel pour bien démarrer.",
+      "standard": "Le meilleur équilibre entre contenu et valeur.",
+      "premium": "Une offre complète pour les projets exigeants."
+    },
+    "features": {
+      "pages": "Pages : {count}",
+      "responsive": "Design responsive",
+      "responsiveAdvanced": "Design responsive avancé",
+      "seoBasic": "SEO de base",
+      "seoStandard": "SEO standard",
+      "seoAdvanced": "SEO avancé",
+      "contactForm": "Formulaire de contact",
+      "social": "Intégration des réseaux sociaux",
+      "integrations": "Intégrations avancées",
+      "performance": "Développement optimisé pour la performance",
+      "cms": "Système de gestion de contenu",
+      "adminPanel": "Tableau de bord d’administration",
+      "database": "Intégration de base de données",
+      "auth": "Connexion et inscription des utilisateurs",
+      "analytics": "Configuration des statistiques",
+      "hosting": "Configuration de l’hébergement et du domaine",
+      "sourceCode": "Livraison du code source complet",
+      "support": "Assistance après livraison : {count} jours",
+      "animations": "Animations fluides",
+      "products": "Produits : jusqu’à {count}",
+      "checkout": "Panier et tunnel de commande",
+      "payments": "Intégration d’une passerelle de paiement",
+      "orders": "Gestion des commandes",
+      "inventory": "Suivi des stocks",
+      "theme": "Installation et configuration du thème",
+      "plugins": "Configuration des extensions essentielles",
+      "elementor": "Création de pages avec Elementor",
+      "customization": "Ajustements de mise en page et de CSS",
+      "security": "Renforcement de la sécurité",
+      "backups": "Mise en place des sauvegardes",
+      "campaigns": "Campagnes publicitaires : {count}",
+      "audience": "Étude et ciblage d’audience",
+      "tracking": "Configuration du suivi des conversions",
+      "reporting": "Rapport de performance",
+      "keywords": "Recherche de mots-clés",
+      "onPage": "Optimisation on-page",
+      "audit": "Audit technique",
+      "posts": "Publications : {count}",
+      "calendar": "Calendrier éditorial",
+      "platforms": "Plateformes : {count}",
+      "concepts": "Propositions graphiques : {count}",
+      "sourceFiles": "Fichiers sources modifiables",
+      "printReady": "Fichiers prêts à imprimer",
+      "formats": "Fichiers PNG, JPG et PDF",
+      "designs": "Visuels : {count}",
+      "issues": "Problèmes corrigés : jusqu’à {count}",
+      "diagnosis": "Diagnostic des problèmes et rapport",
+      "speedGains": "Amélioration des Core Web Vitals",
+      "images": "Optimisation des images et des ressources",
+      "caching": "Configuration du cache",
+      "updates": "Mises à jour des logiciels et extensions",
+      "uptime": "Surveillance de la disponibilité",
+      "changes": "Modifications de contenu : {count} heures",
+      "brandKit": "Couleurs et polices de la marque appliquées"
+    },
+    "addons": {
+      "extraRevision": "Révision supplémentaire",
+      "fastDelivery": "Livraison prioritaire (plus rapide)",
+      "extraPage": "Page supplémentaire",
+      "extraProducts": "Produits supplémentaires (par 10)",
+      "extraDesign": "Visuel supplémentaire",
+      "extraPlatform": "Plateforme supplémentaire"
+    }
+  },
+  "portfolio": {
+    "heroTitle": "Les meilleurs projets pour votre entreprise",
+    "heroText": "Bonjour, je suis Mahdi, développeur MERN Stack basé à Feni, au Bangladesh. Je suis spécialisé dans la création de solutions web dynamiques et responsives. Avec une solide maîtrise de HTML, CSS, JavaScript et ReactJS, j’apporte créativité et efficacité au développement front-end. Ravi de mettre à profit mes compétences en intégration Firebase, je suis en bonne voie pour devenir un expert MERN Stack.",
+    "explore": "Découvrir les projets",
+    "title": "Mes projets",
+    "preview": "Aperçu de {title}"
+  },
+  "contact": {
+    "titleLine1": "Je serai ravi de vous lire,",
+    "titleLine2": "contactez-moi 👋",
+    "intro": "Parlez-moi de votre projet ou écrivez-moi directement :",
+    "whatsappTitle": "WhatsApp",
+    "whatsappText": "Écrivez-moi pour une réponse rapide.",
+    "whatsappCta": "Discuter sur WhatsApp",
+    "emailTitle": "E-mail",
+    "emailText": "Envoyez-moi les détails de votre projet.",
+    "formTitle": "Demande de projet",
+    "orderTitle": "Commande et demande de projet",
+    "orderText": "Dites-moi ce dont vous avez besoin. J’étudierai votre demande et vous répondrai par e-mail avec les prochaines étapes et un devis définitif. Aucun paiement n’est pris sur ce site."
+  },
+  "whatsapp": {
+    "floatingLabel": "Discuter sur WhatsApp",
+    "general": "Bonjour Imam, j’ai découvert votre site et j’aimerais discuter d’un projet. Pouvez-vous m’aider ?",
+    "service": "Bonjour Imam, le service « {service} » m’intéresse. Pouvez-vous me donner plus de détails ?",
+    "servicePackage": "Bonjour Imam, le service « {service} » (formule {package}) m’intéresse. Pouvez-vous me donner plus de détails ?"
+  },
+  "footer": {
+    "about": "Je suis développeur web Full-Stack, spécialisé dans la stack MERN (MongoDB, Express.js, React.js, Node.js), avec plus de {years} ans d’expérience dans la création d’applications web performantes, conviviales et évolutives. J’ai travaillé sur des projets variés : applications monopages, plateformes e-commerce, systèmes de gestion d’e-books et solutions d’automatisation des processus. Je privilégie un code propre, efficace et maintenable ainsi qu’une expérience utilisateur fluide.",
+    "usefulLinks": "Liens utiles",
+    "servicesTitle": "Services",
+    "contactTitle": "Contact",
+    "orderProject": "Commander un projet",
+    "rights": "© {year} Imam Mahdi. Tous droits réservés."
+  },
+  "forms": {
+    "nameLabel": "Nom complet",
+    "namePlaceholder": "Votre nom complet",
+    "emailLabel": "Adresse e-mail",
+    "emailPlaceholder": "vous@exemple.fr",
+    "serviceLabel": "Service",
+    "serviceGeneral": "Demande générale",
+    "packageLabel": "Formule",
+    "packageNotSure": "Je ne sais pas encore",
+    "currencyLabel": "Devise préférée",
+    "languageLabel": "Langue préférée",
+    "descriptionLabel": "Description du projet",
+    "descriptionPlaceholder": "Décrivez votre projet, vos objectifs et les fonctionnalités indispensables…",
+    "budgetLabel": "Budget",
+    "budgetPlaceholder": "p. ex. 500",
+    "deadlineLabel": "Date limite souhaitée",
+    "referenceLabel": "URL de référence du projet",
+    "referencePlaceholder": "https://exemple.fr",
+    "submit": "Envoyer la demande",
+    "sending": "Envoi en cours…",
+    "successTitle": "Demande envoyée",
+    "successText": "Merci ! Votre demande a bien été envoyée et je vous répondrai prochainement à l’adresse {email}.",
+    "sendAnother": "Envoyer une autre demande",
+    "errors": {
+      "required": "Ce champ est obligatoire.",
+      "nameShort": "Veuillez saisir votre nom complet.",
+      "emailInvalid": "Veuillez saisir une adresse e-mail valide.",
+      "descriptionShort": "Veuillez décrire votre projet en au moins 20 caractères.",
+      "descriptionLong": "La description ne doit pas dépasser 3 000 caractères.",
+      "budgetInvalid": "Veuillez saisir un budget valide (chiffres uniquement).",
+      "deadlineInvalid": "Veuillez choisir une date valide.",
+      "deadlinePast": "La date limite ne peut pas être dans le passé.",
+      "urlInvalid": "Veuillez saisir une URL valide commençant par http:// ou https://",
+      "fixErrors": "Veuillez corriger les champs signalés.",
+      "notConfigured": "Le service de demandes n’est pas encore configuré : votre message n’a donc pas été envoyé. Veuillez me contacter par e-mail ou sur WhatsApp.",
+      "rateLimited": "Trop de requêtes. Veuillez réessayer dans quelques minutes.",
+      "spam": "Votre envoi n’a pas pu être vérifié. Patientez un instant et réessayez.",
+      "sendFailed": "Une erreur est survenue et votre demande n’a pas été envoyée. Veuillez réessayer ou me contacter par e-mail ou sur WhatsApp.",
+      "network": "Erreur réseau. Votre demande n’a pas été envoyée. Vérifiez votre connexion et réessayez."
+    }
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "common": {
+      "delivery": {
+        "q": "Quand le délai de livraison commence-t-il ?",
+        "a": "Le délai de livraison commence une fois que j’ai reçu les détails de votre projet et les éléments dont j’ai besoin, comme les textes, images, logo ou accès."
+      },
+      "revisions": {
+        "q": "Qu’est-ce qu’une révision ?",
+        "a": "Une révision est un ajustement dans le périmètre convenu. Les nouvelles fonctionnalités ou un changement de direction font l’objet d’un devis distinct."
+      },
+      "payment": {
+        "q": "Comment fonctionne le paiement ?",
+        "a": "Les conditions de paiement sont convenues avec vous avant le début du travail. Aucun paiement en ligne n’est pris sur ce site."
+      },
+      "custom": {
+        "q": "Puis-je demander quelque chose qui ne figure pas dans les formules ?",
+        "a": "Oui. Envoyez-moi vos besoins et je vous préparerai un devis sur mesure."
+      }
+    },
+    "categories": {
+      "website": {
+        "a": {
+          "q": "Proposez-vous l’hébergement et le nom de domaine ?",
+          "a": "La configuration de l’hébergement et du domaine peut être organisée sur demande. Les frais facturés par les fournisseurs d’hébergement et de domaine sont réglés directement par vous."
+        },
+        "b": {
+          "q": "Mon site fonctionnera-t-il sur mobile ?",
+          "a": "Oui. Chaque site est conçu pour être responsive et testé sur les tailles d’écran courantes."
+        }
+      },
+      "ecommerce": {
+        "a": {
+          "q": "Quels moyens de paiement peuvent être intégrés ?",
+          "a": "Des passerelles courantes comme Stripe et PayPal peuvent être intégrées, selon votre pays et votre type d’activité. La disponibilité dépend du prestataire."
+        },
+        "b": {
+          "q": "Puis-je gérer les produits moi-même ?",
+          "a": "Oui. Vous pourrez ajouter, modifier et supprimer des produits depuis un espace d’administration."
+        }
+      },
+      "wordpress": {
+        "a": {
+          "q": "Quels thèmes et extensions utilisez-vous ?",
+          "a": "Je choisis des thèmes et extensions fiables et bien maintenus, adaptés à vos besoins. Les éventuelles licences premium restent à votre charge."
+        },
+        "b": {
+          "q": "Puis-je modifier le contenu moi-même ?",
+          "a": "Oui. Vous pourrez mettre à jour vos pages et articles vous-même, et je peux vous fournir de courtes instructions."
+        }
+      },
+      "marketing": {
+        "a": {
+          "q": "Le budget publicitaire est-il inclus dans le prix ?",
+          "a": "Non. Le prix couvre uniquement mon service. Les dépenses publicitaires sont réglées directement à la plateforme."
+        },
+        "b": {
+          "q": "Pouvez-vous garantir des résultats ?",
+          "a": "Personne ne peut honnêtement garantir un classement ou des ventes. Je m’appuie sur des pratiques éprouvées, un suivi clair et des rapports transparents."
+        }
+      },
+      "graphics": {
+        "a": {
+          "q": "Dans quels formats recevrai-je les fichiers ?",
+          "a": "Les fichiers finaux sont livrés dans des formats courants tels que PNG, JPG et PDF. Les fichiers sources modifiables sont inclus lorsque la formule le précise."
+        },
+        "b": {
+          "q": "Pouvez-vous respecter ma charte graphique ?",
+          "a": "Oui. Transmettez-moi votre logo, vos couleurs et vos polices et je les respecterai."
+        }
+      },
+      "maintenance": {
+        "a": {
+          "q": "Pouvez-vous réparer un site que vous n’avez pas créé ?",
+          "a": "Dans la plupart des cas, oui. J’examine d’abord le site et je vous indique ce qui est possible avant de commencer."
+        },
+        "b": {
+          "q": "Avez-vous besoin d’un accès à mon site ?",
+          "a": "Oui, j’ai besoin des accès nécessaires à la tâche, par exemple l’hébergement ou l’administration. Veuillez les transmettre uniquement par un canal sécurisé."
+        }
+      }
+    }
+  },
+  "metadata": {
+    "siteName": "Imam Mahdi – Services de développement web",
+    "home": {
+      "title": "Imam Mahdi | Développement web, e-commerce et services digitaux",
+      "description": "Développement web, e-commerce, WordPress, marketing digital, design graphique et maintenance de sites pour des clients du monde entier. Comparez les formules Essentiel, Standard et Premium."
+    },
+    "services": {
+      "title": "Services et tarifs | Imam Mahdi",
+      "description": "Découvrez les services de développement web, e-commerce, WordPress, marketing, design et maintenance avec des formules Essentiel, Standard et Premium claires, en EUR et USD."
+    },
+    "serviceTitle": "{title} | Imam Mahdi",
+    "projects": {
+      "title": "Projets et portfolio | Imam Mahdi",
+      "description": "Découvrez des sites web, boutiques en ligne et applications web créés par Imam Mahdi, développeur MERN Stack qui travaille avec une clientèle internationale."
+    },
+    "about": {
+      "title": "À propos d’Imam Mahdi | Développeur MERN Stack",
+      "description": "Faites connaissance avec Imam Mahdi, développeur full-stack MERN spécialisé dans les applications web évolutives, les plateformes e-commerce et les sites portfolio."
+    },
+    "contact": {
+      "title": "Contact et demande de projet | Imam Mahdi",
+      "description": "Contactez-moi pour votre site web ou votre projet digital : envoyez une demande, écrivez par e-mail ou discutez sur WhatsApp."
+    },
+    "order": {
+      "title": "Commander un service | Imam Mahdi",
+      "description": "Parlez-moi de votre projet et choisissez une formule. Je vous répondrai par e-mail avec les prochaines étapes et un devis définitif."
+    }
+  }
+}

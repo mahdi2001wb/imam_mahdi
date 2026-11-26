@@ -1,13 +1,15 @@
 
+import { useTranslations } from "next-intl";
 import Container from "./Container";
 import SkillsInput from "./SkillsInput";
 
 const Skills = () => {
+  const t = useTranslations("homepage");
   return (
     <div className="wrapper py-20 md:py-24">
        <Container className="">
         <div className="flex flex-col items-center justify-center">
-          <h1 className="text-4xl font-bold tracking-wide"> Skills </h1>
+          <h2 className="text-4xl font-bold tracking-wide">{t("skillsTitle")}</h2>
          
         </div>
       <div className="flex gap-4 flex-wrap mt-10">

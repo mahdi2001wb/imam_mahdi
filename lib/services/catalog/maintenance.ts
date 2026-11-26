@@ -1,0 +1,41 @@
+import { defineService, f, L } from "./helpers";
+
+export const maintenanceServices = [
+  defineService({
+    id: "bug-fixing",
+    category: "maintenance",
+    icon: "Bug",
+    title: L("Website Bug Fixing", "Correzione di bug del sito web", "ওয়েবসাইট বাগ ফিক্সিং", "Corrección de errores de sitios web", "Correction de bugs de site web", "Fehlerbehebung für Websites", "إصلاح أخطاء المواقع"),
+    short: L("Find and fix broken layouts, errors and functionality problems on your existing website.", "Individuazione e risoluzione di layout rotti, errori e problemi di funzionamento sul tuo sito esistente.", "আপনার বিদ্যমান ওয়েবসাইটের ভেঙে যাওয়া লেআউট, ত্রুটি ও কার্যকারিতার সমস্যা খুঁজে বের করে ঠিক করা।", "Detección y corrección de diseños rotos, errores y problemas de funcionamiento en tu sitio web actual.", "Détection et correction des mises en page cassées, des erreurs et des problèmes de fonctionnement de votre site actuel.", "Auffinden und Beheben von defekten Layouts, Fehlern und Funktionsproblemen auf Ihrer bestehenden Website.", "اكتشاف وإصلاح التخطيطات المكسورة والأخطاء ومشكلات الوظائف في موقعك الحالي."),
+    technologies: ["JavaScript", "React", "Next.js", "WordPress"],
+    addons: ["extraRevision", "fastDelivery"],
+    basic: { days: 1, revisions: 1, features: [f("issues", 1), f("diagnosis")] },
+    standard: { days: 3, revisions: 2, features: [f("issues", 3), f("diagnosis")] },
+    premium: { days: 5, revisions: 3, features: [f("issues", 7), f("diagnosis"), f("support", 7)] },
+  }),
+  defineService({
+    id: "speed-optimization",
+    category: "maintenance",
+    icon: "Gauge",
+    title: L("Website Speed Optimization", "Ottimizzazione della velocità del sito", "ওয়েবসাইট স্পিড অপটিমাইজেশন", "Optimización de la velocidad web", "Optimisation de la vitesse du site", "Website-Geschwindigkeitsoptimierung", "تحسين سرعة الموقع"),
+    short: L("Make your website load faster with image optimisation, caching and Core Web Vitals improvements.", "Rendi il tuo sito più veloce con ottimizzazione delle immagini, cache e miglioramento dei Core Web Vitals.", "ছবি অপটিমাইজেশন, ক্যাশিং ও Core Web Vitals উন্নয়নের মাধ্যমে আপনার ওয়েবসাইট দ্রুত লোড করান।", "Haz que tu sitio cargue más rápido con optimización de imágenes, caché y mejoras en Core Web Vitals.", "Accélérez le chargement de votre site grâce à l’optimisation des images, au cache et à l’amélioration des Core Web Vitals.", "Lassen Sie Ihre Website schneller laden – mit Bildoptimierung, Caching und Verbesserungen der Core Web Vitals.", "اجعل موقعك يُحمَّل أسرع بتحسين الصور والتخزين المؤقت وتحسينات Core Web Vitals."),
+    technologies: ["Lighthouse", "PageSpeed Insights", "Next.js", "WordPress"],
+    addons: ["extraRevision", "fastDelivery"],
+    basic: { days: 3, revisions: 1, features: [f("images"), f("caching")] },
+    standard: { days: 5, revisions: 2, features: [f("images"), f("caching"), f("speedGains")] },
+    premium: { days: 7, revisions: 2, features: [f("images"), f("caching"), f("speedGains"), f("audit"), f("reporting")] },
+  }),
+  defineService({
+    id: "website-maintenance",
+    category: "maintenance",
+    icon: "Wrench",
+    unit: "month",
+    title: L("Website Maintenance", "Manutenzione del sito web", "ওয়েবসাইট রক্ষণাবেক্ষণ", "Mantenimiento web", "Maintenance de site web", "Website-Wartung", "صيانة المواقع"),
+    short: L("Ongoing updates, backups, monitoring and small changes to keep your website secure and up to date.", "Aggiornamenti continui, backup, monitoraggio e piccole modifiche per mantenere il sito sicuro e aggiornato.", "আপনার ওয়েবসাইট নিরাপদ ও হালনাগাদ রাখতে নিয়মিত আপডেট, ব্যাকআপ, মনিটরিং ও ছোটখাটো পরিবর্তন।", "Actualizaciones continuas, copias de seguridad, monitorización y pequeños cambios para mantener tu sitio seguro y al día.", "Mises à jour régulières, sauvegardes, surveillance et petites modifications pour garder votre site sécurisé et à jour.", "Laufende Updates, Backups, Überwachung und kleine Änderungen, damit Ihre Website sicher und aktuell bleibt.", "تحديثات مستمرة ونسخ احتياطية ومراقبة وتعديلات صغيرة لإبقاء موقعك آمنًا ومحدَّثًا."),
+    technologies: ["Vercel", "Netlify", "WordPress"],
+    addons: ["extraRevision"],
+    basic: { days: 2, revisions: 1, features: [f("updates"), f("backups"), f("uptime")] },
+    standard: { days: 2, revisions: 2, features: [f("updates"), f("backups"), f("uptime"), f("security"), f("changes", 2)] },
+    premium: { days: 2, revisions: 3, features: [f("updates"), f("backups"), f("uptime"), f("security"), f("changes", 5), f("reporting")] },
+  }),
+];
